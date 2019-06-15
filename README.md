@@ -11,3 +11,8 @@ This file is the controller of the drone. A PID controller is implemented, which
 
 # dijkstra.m
 This file employs the Dijkstra or A-Star algorithm to find the shortest path between the start and stop positions for a given map.
+
+# RRT.m  (for fixed-wing drone)
+This file employs the RRT algorithm to find the shortest path between the start and stop positions for a given map.
+Set the flight constraint space to guide the search and optimize the RRT algorithm.
+Set the flight direction parameters, and select the transfer point for the fixed-wing UAV features.
